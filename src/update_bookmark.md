@@ -4,7 +4,7 @@
 To reset your progress, run this command:
 
 ```sh
-curl https://jj-for-everyone.github.io/reset.sh | bash -s update_bookmark
+curl https://s2p2.github.io/jj-for-everyone/reset.sh | bash -s update_bookmark
 cd ~/jj-tutorial/repo
 ```
 ````

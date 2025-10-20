@@ -4,7 +4,7 @@
 To reset your progress, run:
 
 ```sh
-curl https://jj-for-everyone.github.io/reset.sh | bash -s rebase
+curl https://s2p2.github.io/jj-for-everyone/reset.sh | bash -s rebase
 cd ~/jj-tutorial/repo-bob
 ```
 ````

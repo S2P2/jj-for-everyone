@@ -4,7 +4,7 @@
 To reset your progress to the start of this chapter, run the following command:
 
 ```sh
-curl https://jj-for-everyone.github.io/reset.sh | bash -s make_changes
+curl https://s2p2.github.io/jj-for-everyone/reset.sh | bash -s make_changes
 cd ~/jj-tutorial/repo
 ```
 ````
@@ -33,4 +33,3 @@ A couple of things have changed:
 - The commit is not "(empty)" anymore!
 
 The last point means that our new file was successfully recorded in the working copy commit.
-

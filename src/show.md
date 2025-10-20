@@ -3,7 +3,7 @@
 ````admonish reset title="Reset your progress" collapsible=true
 To reset your progress, run this command and `cd` into the tutorial repository:
 ```sh
-curl https://jj-for-everyone.github.io/reset.sh | bash -s show
+curl https://s2p2.github.io/jj-for-everyone/reset.sh | bash -s show
 cd ~/jj-tutorial/repo
 ```
 ````
