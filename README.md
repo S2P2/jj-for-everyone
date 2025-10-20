@@ -19,7 +19,7 @@ Rendered with [mdBook](https://github.com/rust-lang/mdBook).
 
 ## TODO
 - [x] Simplify and condense the existing Jujutsu tutorial.
-- [ ] Change reset script to this repo to prevent changes from original
+- [x] Change reset script to this repo to prevent changes from original
 - [ ] Translate the simplified tutorial into Thai.
 
 

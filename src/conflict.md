@@ -4,7 +4,7 @@
 To reset your progress to the start of this chapter, run the following command:
 
 ```sh
-curl https://jj-for-everyone.github.io/reset.sh | bash -s conflict
+curl https://s2p2.github.io/jj-for-everyone/reset.sh | bash -s conflict
 cd ~/jj-tutorial/repo
 ```
 ````
