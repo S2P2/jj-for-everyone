@@ -16,6 +16,7 @@ additional-css = [
   "theme/aha_styles.css",
   "theme/mdbook-admonish-custom.css",
 ]
+site-url = "/jj-for-everyone/"
 git-repository-url = "https://github.com/S2P2/jj-for-everyone"
 edit-url-template = "https://github.com/S2P2/jj-for-everyone/edit/main/{path}"
 no-section-label = true
