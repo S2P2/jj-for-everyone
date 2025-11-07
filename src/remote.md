@@ -67,17 +67,24 @@ Let's check the result with `jj log`:
 
 The output shows the `main` bookmark pointing to your commit.
 
-## Push the Bookmark
+## Track a bookmark
 
-With the remote connected and the bookmark in place, you can now "push" your commit.
+We are now learning about bookmarks because we want to send commits to a remote.
+However, bookmarks can also be used for local-only purposes. You may not want to send _all_ of your bookmarks to a remote.
+
+Jujutsu identifies bookmarks which are supposed to be sent to a remote with a "tracking" state.
+In order to send the `main` bookmark to our remote, we need to "track it" first:
 
 ```sh
-jj git push --bookmark main --allow-new
+jj bookmark track main@origin
 ```
 
-The `--allow-new` (or `-N`) flag is required the first time you push a new bookmark. This safety measure prevents accidentally pushing local-only bookmarks.
+The `@origin` part means that `main` should be sent to the remote called `origin`.
 
-You can disable this requirement if you prefer:
+## Push the bookmark
+
+Now that we're connected and have a tracked bookmark, let's finally send our commit to the remote. The technical term for sending commits is "pushing" them.
+
 ```sh
-jj config set --user git.push-new-bookmarks true
+jj git push --bookmark main
 ```

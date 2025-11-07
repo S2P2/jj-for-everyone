@@ -60,4 +60,6 @@ Jujutsu generated the bookmark `push-blabla` using the change ID.
 
 **Note:** You can abbreviate `--change` as `-c`. Use `jj git push --help` to see more available flags.
 
+Tracking the new bookmark is also handled automatically for the same reason, so there's no need to run `jj bookmark track`.
+
 Alice's experiment is now safely stored on the remote without interfering with `main`.
