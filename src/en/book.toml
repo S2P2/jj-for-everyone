@@ -1,7 +1,7 @@
 [book]
 authors = ["Remo Senekowitsch", "Sathianphong Phongsathian"]
 language = "en"
-src = "src"
+src = "."
 title = "Jujutsu for everyone (Concise Edition)"
 description = "A concise edition of Jujutsu tutorial that requires no previous experience with Git or other version control systems."
 
@@ -9,12 +9,12 @@ description = "A concise edition of Jujutsu tutorial that requires no previous e
 default-theme = "latte"
 preferred-dark-theme = "macchiato"
 additional-css = [
-  "theme/mdbook-admonish.css",
-  "theme/catppuccin.css",
-  "theme/catppuccin-admonish.css",
+  "../../theme/mdbook-admonish.css",
+  "../../theme/catppuccin.css",
+  "../../theme/catppuccin-admonish.css",
   # custom
-  "theme/aha_styles.css",
-  "theme/mdbook-admonish-custom.css",
+  "../../theme/aha_styles.css",
+  "../../theme/mdbook-admonish-custom.css",
 ]
 site-url = "/jj-for-everyone/"
 git-repository-url = "https://github.com/S2P2/jj-for-everyone"
